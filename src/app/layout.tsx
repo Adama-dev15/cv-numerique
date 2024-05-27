@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { FloatingNavDemo } from "@/components/Navigation/Header";
+import Footer from "@/components/Footer/Footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
       >
         <FloatingNavDemo />
         {children}
+        <Footer />
       </body>
     </html>
   );
