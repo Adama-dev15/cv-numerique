@@ -13,27 +13,27 @@ export function FloatingNavDemo() {
     {
       name: "Accueil",
       link: "/",
-      icon: <IconHome className="h-5 w-5 text-white " />
+      icon: <IconHome className="h-5 w-5 " />
     },
     {
       name: "A Propos",
       link: "#apropos",
-      icon: <IconUser className="h-5 w-5 text-white " />
+      icon: <IconUser className="h-5 w-5 " />
     },
     {
       name: "Services",
       link: "#services",
-      icon: <IconTools className="h-5 w-5 text-white " />
+      icon: <IconTools className="h-5 w-5 " />
     },
     {
       name: "Portfolio",
       link: "#portfolio",
-      icon: <IconBriefcase className="h-5 w-5 text-white " />
+      icon: <IconBriefcase className="h-5 w-5 " />
     },
     {
       name: "Contact",
       link: "#contact",
-      icon: <IconMessage className="h-5 w-5 text-white " />
+      icon: <IconMessage className="h-5 w-5 " />
     }
   ];
   return (
