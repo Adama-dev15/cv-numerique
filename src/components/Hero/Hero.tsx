@@ -51,11 +51,11 @@ export function AuroraBackgroundDemo() {
           duration: 0.8,
           ease: "easeInOut"
         }}
-        className=" container bg-fixed px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-950 text-white pb-10 md:pb-20 lg:pb-0"
+        className=" container  px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-950 text-white pb-10 md:pb-20 lg:pb-0"
       >
         <div className="content grid grid-cols-1 lg:grid-cols-2 relative">
           {/* left */}
-          <div className="left w-full pt-96 md:pt-[500px] lg:pt-40 flex flex-col gap-8">
+          <div className="left w-full pt-84 md:pt-[500px] lg:pt-40 flex flex-col gap-8">
             <div className="info-user font-bold text-[20px] md:text-[1.7rem] flex flex-col gap-3">
               <p className="text-center lg:text-left">
                 Bonjour, c&apos;est Moi

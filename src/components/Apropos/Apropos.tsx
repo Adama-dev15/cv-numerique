@@ -5,7 +5,7 @@ import Image from "next/image";
 const Apropos = () => {
   return (
     <div
-      className=" container px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-900 text-white pt-[350px] md:pt-[500px]  lg:py-20"
+      className=" container px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-900 text-white pt-[300px] md:pt-[500px]  lg:py-20"
       id="apropos"
     >
       <div className="content flex flex-col-reverse gap-10 lg:gap-0 lg:grid lg:grid-cols-2 w-full">
