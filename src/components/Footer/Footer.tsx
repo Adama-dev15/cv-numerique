@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="h-8 w-8 rounded-full border border-neutral-600 hover:bg-neutral-600 text-neutral-600 hover:text-white hover:shadow-md hover:shadow-neutral-600 duration-200 flex items-center justify-center">
                 <Github size={18} />
               </div>
-              <p className="font-bold text-neutral-600">Traoré Adama</p>
+              <p className="font-bold text-lg text-neutral-600">Traoré Adama</p>
             </Link>
           </div>
           <div className="down flex items-center justify-center w-8 h-8 bg-neutral-600 rounded-lg    hover:shadow-md hover:shadow-neutral-600 duration-200">

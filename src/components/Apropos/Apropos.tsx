@@ -27,7 +27,7 @@ const Apropos = () => {
               <span className="uppercase text-neutral-600">moi</span>
             </div>
             <div>
-              <p className="  text-justify  ">
+              <p className="  text-justify text-lg">
                 Je suis{" "}
                 <span className="text-neutral-600 font-bold ">
                   Traoré Adama

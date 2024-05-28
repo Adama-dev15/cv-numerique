@@ -49,7 +49,7 @@ export const FloatingNav = ({
               <span className="block sm:hidden  hover:text-neutral-500 hover:shadow-md hover:shadow-neutral-500 duration-200">
                 {navItem.icon}
               </span>
-              <span className="hidden sm:block text-sm  hover:border-b hover:text-neutral-500   duration-200">
+              <span className="hidden sm:block text-lg  hover:border-b hover:text-neutral-500   duration-200">
                 {navItem.name}
               </span>
             </Link>
