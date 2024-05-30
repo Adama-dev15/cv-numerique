@@ -39,9 +39,9 @@ export const projects = [
     stack: "HTML, CSS, JAVASCRIPT"
   },
   {
-    title: "Commande de nourriture en ligne",
+    title: "FoodFlow",
     description:
-      "J'ai développé le site de Délices Culinaires, une plateforme de commande en ligne pour les amateurs de bonne cuisine. Ce projet présente une interface conviviale et efficace, facilitant l'exploration des menus et la commande de délicieux plats directement à domicile.",
+      "J'ai développé le site de FoodFlow, une plateforme de commande en ligne pour les amateurs de bonne cuisine. Ce projet présente une interface conviviale et efficace, facilitant l'exploration des menus et la commande de délicieux plats directement à domicile.",
     link: "https://newfood.vercel.app/",
     image: image_2,
     stack: "JAVASCRIPT, TYPESCRIPT, NEXT JS, SHADCN/UI, TAILWIND CSS"
