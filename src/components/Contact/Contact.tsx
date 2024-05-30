@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className=" container flex flex-col gap-10 py-20 px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-950 text-white"
+      className="  flex flex-col gap-10 py-20 px-5 md:px-8 lg:px-20 lg:h-[100vh] bg-neutral-950 text-white"
       id="contact"
     >
       {" "}

@@ -34,47 +34,53 @@ export function Protfolio() {
 
 export const project = [
   {
-    title: "BONDOUKOU_MAG",
+    title: "Bondoukou_Mag",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
+      "J'ai conçu le site vitrine de Bkou-Mag, une entreprise spécialisée en communication et événementiel. Ce projet met en avant leurs services de manière claire et attrayante, reflétant leur expertise et leur créativité dans le domaine.",
     link: "https://adama-dev15.github.io/BONDOUKOU_MAG/",
-    image: image_1
+    image: image_1,
+    stack: "HTML, CSS, JAVASCRIPT"
   },
   {
     title: "Commande de nourriture en ligne",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+      "J'ai développé le site de Délices Culinaires, une plateforme de commande en ligne pour les amateurs de bonne cuisine. Ce projet présente une interface conviviale et efficace, facilitant l'exploration des menus et la commande de délicieux plats directement à domicile.",
     link: "https://newfood.vercel.app/",
-    image: image_2
+    image: image_2,
+    stack: "JAVASCRIPT, TYPESCRIPT, NEXT JS, SHADCN/UI, TAILWIND CSS"
   },
   {
     title: "portfolio",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+      "J'ai élaboré un template de portfolio sophistiqué, alliant élégance et fonctionnalité pour mettre en valeur vos réalisations. Ce projet reflète mon expertise en design web, offrant une interface intuitive et esthétique pour présenter votre travail de manière professionnelle et captivante.",
     link: "https://my-portfolio-beta-drab-41.vercel.app/",
-    image: image_3
+    image: image_3,
+    stack: "JAVASCRIPT, TYPESCRIPT, NEXT JS, SHADCN/UI, TAILWIND CSS"
   },
   {
     title: "Planification de mariage",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+      "J'ai orchestré la création d'un site de planification de mariage intuitif, offrant une expérience en ligne fluide pour les couples. Ce projet combine fonctionnalités pratiques et design romantique pour une planification de mariage sans tracas et mémorable.",
     link: "https://mariage-nextjs.vercel.app/",
-    image: image_12
+    image: image_12,
+    stack: "JAVASCRIPT, TYPESCRIPT, NEXT JS, CSS"
   },
 
   {
-    title: "WEB SITE RESTAURANT",
+    title: "Web site Restaurant",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "création de sites web de commande et de réservation de nourriture en ligne, offrant une expérience utilisateur fluide et conviviale. Ces projets ont nécessité une conception minutieuse, intégrant des fonctionnalités de commande intuitive et de gestion des réservations pour améliorer l'accessibilité et l'efficacité des services alimentaires.",
     link: "https://adama-dev15.github.io/WEB-SITE-RESTAURANT/",
-    image: image_5
+    image: image_5,
+    stack: "HTML, CSS, JAVASCRIPT"
   },
 
   {
     title: "modal-image",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
+      "J'ai créé des modèles d'images modales interactives pour une expérience visuelle immersive et fluide sur les sites web. Ces conceptions visent à captiver les utilisateurs tout en maintenant une navigation intuitive.",
     link: "https://modal-image-eight.vercel.app/",
-    image: image_7
+    image: image_7,
+    stack: "HTML, SCSS, JAVASCRIPT"
   }
 ];

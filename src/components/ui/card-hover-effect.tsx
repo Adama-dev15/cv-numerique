@@ -12,6 +12,7 @@ export const HoverEffect = ({
     title: string;
     description: string;
     link: string;
+    stack: string;
   }[];
   className?: string;
 }) => {
@@ -50,8 +51,15 @@ export const HoverEffect = ({
             )}
           </AnimatePresence>
           <Card>
-            <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            <CardTitle className="group-hover:border-b w-max duration-300 !capitalize">
+              {item.title}
+            </CardTitle>
+            <CardDescription className="text-[16px]">
+              {item.description}
+            </CardDescription>
+            <CardDescription className="text-sm lowercase font-bold text-white">
+              Stack: {item.stack}
+            </CardDescription>
           </Card>
         </Link>
       ))}
@@ -87,7 +95,12 @@ export const CardTitle = ({
   children: React.ReactNode;
 }) => {
   return (
-    <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4", className)}>
+    <h4
+      className={cn(
+        "text-zinc-100 text-lg font-bold tracking-wide mt-4",
+        className
+      )}
+    >
       {children}
     </h4>
   );

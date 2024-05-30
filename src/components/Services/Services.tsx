@@ -24,18 +24,18 @@ export const projects = [
     icon: <IoCodeSlashSharp size={50} />,
     title: "Front End",
     description:
-      "     Explorez mes compétences en développement BackEnd : des solutions robustes et sécurisées qui alimentent les fonctionnalités de vos applications web."
+      "     Je crée des interfaces utilisateur attrayantes et réactives en utilisant les technologies les plus modernes. Mon expertise inclut JavaScript et des frameworks comme React Js et Next Js, garantissant des sites web rapides, accessibles et optimisés pour tous les appareils."
   },
   {
     icon: <FaDatabase size={50} />,
     title: "Back End",
     description:
-      "     Explorez mes compétences en développement BackEnd : des solutions robustes et sécurisées qui alimentent les fonctionnalités de vos applications web."
+      "    Je construis des systèmes backend robustes et évolutifs, assurant la gestion efficace des données et des processus de votre application. En utilisant des technologies telles que Node.Js, Express Js et des bases de données comme MySQL et MongoDB, je développe des API sécurisées et performantes."
   },
   {
     icon: <FaMobileAlt size={50} />,
     title: "Mobile",
     description:
-      "  Explorez mon savoir-faire en développement d'applications :des solutions mobiles innovantes et conviviales conçues pour répondre aux besoins de vos utilisateurs."
+      " Je développe des applications mobiles intuitives et performantes pour Android  utilisant des technologies comme Dart et Flutter. Mon objectif est de fournir une expérience utilisateur fluide et engageante, tout en assurant une performance optimale sur tous les appareils."
   }
 ];

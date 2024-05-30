@@ -6,6 +6,7 @@ import { AuroraBackground } from "../ui/aurora-background";
 import Typed from "typed.js";
 import {
   FaFacebookF,
+  FaGithub,
   FaLinkedinIn,
   FaTiktok,
   FaTwitter,
@@ -73,6 +74,11 @@ export function AuroraBackgroundDemo() {
             </div>
 
             <div className="reseau flex items-center justify-center lg:items-start lg:justify-start gap-5 relative">
+              <div className="icon border cursor-pointer border-neutral-600 rounded-full w-8 h-8 flex items-center justify-center text-neutral-600 hover:bg-neutral-600 hover:text-white  duration-200  hover:shadow-lg hover:shadow-neutral-600">
+                <Link href="https://github.com/Adama-dev15">
+                  <FaGithub />
+                </Link>
+              </div>
               <div className="icon border cursor-pointer border-neutral-600 rounded-full w-8 h-8 flex items-center justify-center text-neutral-600 hover:bg-neutral-600 hover:text-white  duration-200  hover:shadow-lg hover:shadow-neutral-600">
                 <Link href="https://web.facebook.com/profile.php?id=100069607812200">
                   <FaFacebookF />
